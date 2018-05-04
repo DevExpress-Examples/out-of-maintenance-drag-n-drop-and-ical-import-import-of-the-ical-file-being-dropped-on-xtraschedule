@@ -1,5 +1,7 @@
-Microsoft Visual Studio Solution File, Format Version 9.00
-# Visual Studio 2005
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27428.2037
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Drag_iCalFromFile", "Drag_iCalFromFile\Drag_iCalFromFile.csproj", "{FCA023CF-74FC-4AD4-B83A-8B1B5F6B3186}"
 EndProject
 Global
@@ -15,5 +17,8 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AEC9C3AF-D98F-4FAF-A3C7-628B1F51EB95}
 	EndGlobalSection
 EndGlobal
