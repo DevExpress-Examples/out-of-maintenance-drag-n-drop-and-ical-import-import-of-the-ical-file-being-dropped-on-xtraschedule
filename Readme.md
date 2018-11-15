@@ -1,3 +1,8 @@
+<!-- default file list -->
+*Files to look at*:
+
+* [Form1.cs](./CS/Drag_iCalFromFile/Form1.cs) (VB: [Form1.vb](./VB/Drag_iCalFromFile/Form1.vb))
+<!-- default file list end -->
 # Drag-n-drop and iCal import - import of the iCal file being dropped on XtraScheduler
 
 
