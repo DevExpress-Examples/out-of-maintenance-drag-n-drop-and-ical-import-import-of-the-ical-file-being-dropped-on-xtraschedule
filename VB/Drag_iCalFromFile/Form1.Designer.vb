@@ -30,12 +30,12 @@ Namespace Drag_iCalFromFile
 			Dim timeRuler2 As New DevExpress.XtraScheduler.TimeRuler()
 			Me.schedulerControl1 = New DevExpress.XtraScheduler.SchedulerControl()
 			Me.schedulerStorage1 = New DevExpress.XtraScheduler.SchedulerStorage(Me.components)
-			Me.appointmentsDataSet = New Drag_iCalFromFile.AppointmentsDataSet()
-			Me.appointmentsBindingSource = New System.Windows.Forms.BindingSource(Me.components)
-			Me.appointmentsTableAdapter = New Drag_iCalFromFile.AppointmentsDataSetTableAdapters.AppointmentsTableAdapter()
-			Me.resourcesBindingSource = New System.Windows.Forms.BindingSource(Me.components)
-			Me.resourcesTableAdapter = New Drag_iCalFromFile.AppointmentsDataSetTableAdapters.ResourcesTableAdapter()
-			CType(Me.schedulerControl1, System.ComponentModel.ISupportInitialize).BeginInit()
+            Me.appointmentsDataSet = New AppointmentsDataSet()
+            Me.appointmentsBindingSource = New System.Windows.Forms.BindingSource(Me.components)
+            Me.appointmentsTableAdapter = New AppointmentsDataSetTableAdapters.AppointmentsTableAdapter()
+            Me.resourcesBindingSource = New System.Windows.Forms.BindingSource(Me.components)
+            Me.resourcesTableAdapter = New AppointmentsDataSetTableAdapters.ResourcesTableAdapter()
+            CType(Me.schedulerControl1, System.ComponentModel.ISupportInitialize).BeginInit()
 			CType(Me.schedulerStorage1, System.ComponentModel.ISupportInitialize).BeginInit()
 			CType(Me.appointmentsDataSet, System.ComponentModel.ISupportInitialize).BeginInit()
 			CType(Me.appointmentsBindingSource, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -126,9 +126,9 @@ Namespace Drag_iCalFromFile
 		Private WithEvents schedulerStorage1 As DevExpress.XtraScheduler.SchedulerStorage
 		Private appointmentsDataSet As AppointmentsDataSet
 		Private appointmentsBindingSource As System.Windows.Forms.BindingSource
-		Private appointmentsTableAdapter As Drag_iCalFromFile.AppointmentsDataSetTableAdapters.AppointmentsTableAdapter
-		Private resourcesBindingSource As System.Windows.Forms.BindingSource
-		Private resourcesTableAdapter As Drag_iCalFromFile.AppointmentsDataSetTableAdapters.ResourcesTableAdapter
-	End Class
+        Private appointmentsTableAdapter As AppointmentsDataSetTableAdapters.AppointmentsTableAdapter
+        Private resourcesBindingSource As System.Windows.Forms.BindingSource
+        Private resourcesTableAdapter As AppointmentsDataSetTableAdapters.ResourcesTableAdapter
+    End Class
 End Namespace
 
