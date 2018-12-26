@@ -8,7 +8,7 @@
 ' </auto-generated>
 '------------------------------------------------------------------------------
 
-#Disable Warning 1591
+'#Disable Warning 1591
 
 Namespace Drag_iCalFromFile
 
@@ -2587,4 +2587,4 @@ Namespace Drag_iCalFromFile.AppointmentsDataSetTableAdapters
     End Class
 End Namespace
 
-#Enable Warning 1591
+'#Enable Warning 1591
